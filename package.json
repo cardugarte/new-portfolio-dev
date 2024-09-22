@@ -21,5 +21,12 @@
     "sugar-high": "^0.6.0",
     "tailwindcss": "4.0.0-alpha.13",
     "typescript": "5.3.3"
+  },
+  "prettier": "@lacrypta/prettier-config",
+  "devDependencies": {
+    "@lacrypta/eslint-config": "^1.0.2",
+    "@lacrypta/prettier-config": "^1.0.1",
+    "@lacrypta/typescript-config": "^1.0.1",
+    "eslint-config-prettier": "^9.1.0"
   }
 }
