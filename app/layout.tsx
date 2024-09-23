@@ -20,7 +20,7 @@ export const metadata: Metadata = {
     description: 'This is my portfolio.',
     url: baseUrl,
     siteName: 'My Portfolio',
-    locale: 'en_US',
+    locale: 'es_AR',
     type: 'website',
   },
   robots: {
@@ -45,9 +45,9 @@ export default function RootLayout({
 }) {
   return (
     <html
-      lang="en"
+      lang="es"
       className={cx(
-        'text-black bg-white dark:text-white dark:bg-black',
+        'text-white bg-gradient-to-r from-[#131C31] to-[#222F43] dark:text-white dark:bg-gradient-to-r from-[#131C31] to-[#222F43]',
         GeistSans.variable,
         GeistMono.variable
       )}

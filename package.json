@@ -3,7 +3,9 @@
   "scripts": {
     "dev": "next dev",
     "build": "next build",
-    "start": "next start"
+    "start": "next start",
+    "lint": "turbo lint",
+    "format": "prettier --write \"**/*.{js,jsx,ts,tsx,md,mdx}\""
   },
   "dependencies": {
     "@tailwindcss/postcss": "4.0.0-alpha.13",
@@ -15,18 +17,20 @@
     "geist": "1.2.2",
     "next": "canary",
     "next-mdx-remote": "^4.4.1",
-    "postcss": "^8.4.35",
     "react": "18.2.0",
     "react-dom": "18.2.0",
     "sugar-high": "^0.6.0",
-    "tailwindcss": "4.0.0-alpha.13",
-    "typescript": "5.3.3"
+    "typescript": "5.3.3",
+    "typewriter-effect": "^2.21.0"
   },
   "prettier": "@lacrypta/prettier-config",
   "devDependencies": {
     "@lacrypta/eslint-config": "^1.0.2",
     "@lacrypta/prettier-config": "^1.0.1",
     "@lacrypta/typescript-config": "^1.0.1",
-    "eslint-config-prettier": "^9.1.0"
+    "autoprefixer": "^10.4.20",
+    "eslint-config-prettier": "^9.1.0",
+    "postcss": "^8.4.35",
+    "tailwindcss": "4.0.0-alpha.13"
   }
 }
